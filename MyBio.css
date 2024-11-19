@@ -1,0 +1,31 @@
+h1
+{
+    font-size: 25px;              /*Set font size as 25px*/
+    color: black;              /*Set font color as black*/
+    font-style: italic, bold;    /*Set font style as bold/italic*/
+}/*End of h1*/
+
+p1
+{
+    font-size:25px;             /*Set font size as 25px*/
+    color:black;             /*Set font color as black*/
+    font-style:italic;         /*Set font style as italic*/
+}/*End of P1*/
+
+p2
+{
+    font-size:25px;             /*Set font size as 25px*/
+    color:black;             /*Set font color as black*/
+    font-style:italic;         /*Set font style as italic*/
+}/*End of P2*/
+
+table,td,th
+{
+    Width: 1000px;                  /*Set table width as 1000px*/
+    height: 350px;                  /*Set table height as 350px*/
+    text-align: center;             /*Align text to center*/
+    border: 5px, solid black;     /*Set border as 5px and color as black*/
+    font-size: 20px;                /*Set font size as 20px*/
+    color:black;                  /*Set font color as black*/
+    font-style:italic;             /*Set font style as italic*/
+}/*End of table, td, th*/
