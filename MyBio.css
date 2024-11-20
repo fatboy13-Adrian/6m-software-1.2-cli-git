@@ -1,3 +1,29 @@
+div1 
+{
+    width:10%;                  /*Set Div width as 10%*/
+    display:inline-block;       /*Set Div display as inline-block*/
+    padding: 25px 50px;         /*Set padding as 25px 50 px*/
+    font-size: 20px;            /*Set font size as 20px*/
+  }/*End of div1*/
+
+div2
+{
+    width:20%;                  /*Set Div width as 20%*/
+    display:inline-block;       /*Set Div display as inline-block*/
+    padding: 25px 50px;         /*Set padding as 25px 50 px*/
+    font-size: 20px;            /*Set font size as 20px*/
+    vertical-align: top;        /*Align text to top*/
+}/*End of div2*/
+
+div3
+{
+    width:40%;                  /*Set Div width as 50%*/
+    display:inline-block;       /*Set Div display as inline-block*/
+    padding: 25px 50px;         /*Set padding as 25px 50 px*/
+    font-size: 20px;            /*Set font size as 20px*/
+    vertical-align:top;         /*Align text to top*/
+}/*End of div3*/
+
 h1
 {
     font-size: 25px;              /*Set font size as 25px*/
@@ -5,27 +31,31 @@ h1
     font-style: italic, bold;    /*Set font style as bold/italic*/
 }/*End of h1*/
 
+h2
+{
+    font-size: 25px;              /*Set font size as 25px*/
+    color: black;              /*Set font color as black*/
+    font-style: italic, bold;    /*Set font style as bold/italic*/
+}/*End of h2*/
+
+h3
+{
+    font-size: 25px;              /*Set font size as 25px*/
+    color: black;              /*Set font color as black*/
+    font-style: italic, bold;    /*Set font style as bold/italic*/
+}/*End of h3*/
+
 p1
 {
-    font-size:25px;             /*Set font size as 25px*/
+    font-size:20px;             /*Set font size as 25px*/
     color:black;             /*Set font color as black*/
     font-style:italic;         /*Set font style as italic*/
 }/*End of P1*/
 
-p2
+img
 {
-    font-size:25px;             /*Set font size as 25px*/
-    color:black;             /*Set font color as black*/
-    font-style:italic;         /*Set font style as italic*/
-}/*End of P2*/
-
-table,td,th
-{
-    Width: 1000px;                  /*Set table width as 1000px*/
-    height: 350px;                  /*Set table height as 350px*/
-    text-align: center;             /*Align text to center*/
-    border: 5px, solid black;     /*Set border as 5px and color as black*/
-    font-size: 20px;                /*Set font size as 20px*/
-    color:black;                  /*Set font color as black*/
-    font-style:italic;             /*Set font style as italic*/
-}/*End of table, td, th*/
+    display: block;         /*Set image display as block*/
+    margin: auto;           /*Set image margin as auto*/
+    width: 200px;           /*Set image width as 200px*/
+    height: 200px;          /*Set image height as 200px*/
+}/*End of img*/
