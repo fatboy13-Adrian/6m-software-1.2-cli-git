@@ -1,9 +1,8 @@
 div1 
 {
-    width:10%;                  /*Set Div width as 10%*/
+    width:20%;                  /*Set Div width as 10%*/
     display:inline-block;       /*Set Div display as inline-block*/
     padding: 25px 50px;         /*Set padding as 25px 50 px*/
-    font-size: 20px;            /*Set font size as 20px*/
   }/*End of div1*/
 
 div2
@@ -52,10 +51,10 @@ p1
     font-style:italic;         /*Set font style as italic*/
 }/*End of P1*/
 
-img
+"#profilePic"
 {
     display: block;         /*Set image display as block*/
     margin: auto;           /*Set image margin as auto*/
-    width: 200px;           /*Set image width as 200px*/
-    height: 200px;          /*Set image height as 200px*/
-}/*End of img*/
+    width: 100px;           /*Set image width as 100px*/
+    height: 100px;          /*Set image height as 100px*/
+}/*End of profilePic*/
