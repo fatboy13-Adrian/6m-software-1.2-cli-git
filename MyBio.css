@@ -51,7 +51,7 @@ p1
     font-style:italic;         /*Set font style as italic*/
 }/*End of P1*/
 
-"#profilePic"
+#profilePic
 {
     display: block;         /*Set image display as block*/
     margin: auto;           /*Set image margin as auto*/
