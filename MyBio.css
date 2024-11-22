@@ -1,45 +1,35 @@
-div1 
+.flex-container                     /*Create a flex container to distribute space in between items*/
 {
-    width:20%;                  /*Set Div width as 10%*/
-    display:inline-block;       /*Set Div display as inline-block*/
-    padding: 25px 50px;         /*Set padding as 25px 50 px*/
-  }/*End of div1*/
+  display: flex;                    /*flex container becomes flexible by setting the display property to flex*/
+  background-color: yellow;     /*Set flex container background color as yellow*/
+}/*end of .flex-container*/
 
-div2
+.flex-container > 
+div
 {
-    width:20%;                  /*Set Div width as 20%*/
-    display:inline-block;       /*Set Div display as inline-block*/
-    padding: 25px 50px;         /*Set padding as 25px 50 px*/
-    font-size: 20px;            /*Set font size as 20px*/
-    vertical-align: top;        /*Align text to top*/
-}/*End of div2*/
-
-div3
-{
-    width:40%;                  /*Set Div width as 50%*/
-    display:inline-block;       /*Set Div display as inline-block*/
-    padding: 25px 50px;         /*Set padding as 25px 50 px*/
-    font-size: 20px;            /*Set font size as 20px*/
-    vertical-align:top;         /*Align text to top*/
-}/*End of div3*/
+  background-color: greenyellow;    /*Set background color as green yellow*/
+  margin: 10px;                       /*Set margin as 10px*/   
+  padding: 50px;                      /*Set padding as 20px*/
+  font-size: 20px;                    /*Set font size as 20px*/
+}
 
 h1
 {
-    font-size: 25px;              /*Set font size as 25px*/
+    font-size: 20px;              /*Set font size as 25px*/
     color: black;              /*Set font color as black*/
     font-style: italic, bold;    /*Set font style as bold/italic*/
 }/*End of h1*/
 
 h2
 {
-    font-size: 25px;              /*Set font size as 25px*/
+    font-size: 20px;              /*Set font size as 25px*/
     color: black;              /*Set font color as black*/
     font-style: italic, bold;    /*Set font style as bold/italic*/
 }/*End of h2*/
 
 h3
 {
-    font-size: 25px;              /*Set font size as 25px*/
+    font-size: 20px;              /*Set font size as 25px*/
     color: black;              /*Set font color as black*/
     font-style: italic, bold;    /*Set font style as bold/italic*/
 }/*End of h3*/
@@ -55,6 +45,6 @@ p1
 {
     display: block;         /*Set image display as block*/
     margin: auto;           /*Set image margin as auto*/
-    width: 100px;           /*Set image width as 100px*/
-    height: 100px;          /*Set image height as 100px*/
+    width: 200px;           /*Set image width as 200px*/
+    height: 200px;          /*Set image height as 200px*/
 }/*End of profilePic*/

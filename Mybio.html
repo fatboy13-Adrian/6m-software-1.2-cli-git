@@ -1,38 +1,41 @@
-<!DOCTYPE html>                                                                                         <!--Declare document type as HTML file-->
-<html lang="en">                                                                                        <!--Specifies the language of the document as English-->
-    <head>  
-    <meta charset="UTF-8" />                                                                            <!--Specifies the character encoding for the HTML document-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />                            <!--Viewport is the user's visible area of a web page.-->
-    <title>Welcome to My Homepage</title>
-    <link rel="Stylesheet" href="MyBio.css">                                                            <!--Define relationship between both HTML/CSS files. Create a link to import CSS file.-->
-    </head>
-        <Body>
-            <h1>My Profile</h1>                                                                 
-            <div1>
-                <img id="profilePic" src="./img/IMG_0372 online.jpg"/>                                  <!--Display my profile image-->   
-            </div1>
+<!DOCTYPE html>                                                                                                             <!--Declare document type as HTML file-->
+<html lang="en">                                                                                                            <!--Specifies the language of the document as English-->
+<head>  
+    <meta charset="UTF-8" />                                                                                                <!--Specifies the character encoding for the HTML document-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />                                                <!--Viewport is the user's visible area of a web page.-->
+    <title>Welcome to My Homepage</title>                                                                                   <!--Display title on the browser tab-->
+    <link rel="Stylesheet" href="MyBio.css">                                                                                <!--Import my CSS file-->  
+</head>
 
-            <div2>
-                <h2>About Me<br></h2>                                                                   <!--Display my personal info-->
-                    First Name: Adrian<br>
-                    Last Name: Tang<br>
-                    GitHub URL: <a href="https://github.com/fatboy13-Adrian" target="_blank">Fatboy13-Adrian GitHub</a><br>     <!--Open My GitHub URL link in a new blank html page-->
-                    Location: <img id="sgflag" src="https://flagcdn.com/16x12/sg.png" srcset="https://flagcdn.com/32x24/sg.png 2x, https://flagcdn.com/48x36/sg.png 3x" width="16" height="12" alt="Singapore"><br> <!--Display SG flag-->
-                    Hobbies: <br>
-                    <ul style="list-style-type:circle">                                                 <!--Specify tpye of list - item marker in the hobby list-->
-                    <li>Play PC Games</li>                                                              <!--Defines a list item inside an unordered list-->
-                    <li>Travelling Overseas</li>
-                    <li>Basketball</li>
-                    </ul>
-                </div2>
+<body>
+    <h1>My Personal Bio</h1>                                                                                                <!--Heading 1-->
+    <div class="flex-container">                                                                                            <!--Flexible box layout module, makes it easy to design responsive layout structure without using float/positioning-->
+        <div>
+            <img id="profilePic" src="./img/IMG_0372 online.jpg"/>                                                          <!--Display my profile image-->
+        </div>                                                                                                              <!--End of profile pic div-->
 
-            <div3>
-                <h3>Short Paragrah About Myself</h3>                                       <!--Display a short paragraph of myself-->
-                <p1>
-                Versatile IT professional with 9 years of experience in system support, cybersecurity, and team leadership.<br>
-                Achieved 50% browser optimization, 40% fewer security incidents, and 99% system uptime.<br>
-                Currently transitioning to a Software Engineer role to apply technical expertise to designing scalable, secure, and innovative software solutions.<br>
-                </p1>
-            </div3>
-        </Body>                                                                                         <!--End of body-->
-</html>                                                                                                 <!--End of HTML-->
+        <div>
+            <h2>About Me<br></h2>                                                                                           <!--Display my personal info-->
+                First Name: Adrian<br>
+                Last Name: Tang<br>
+                GitHub URL: <a href="https://github.com/fatboy13-Adrian" target="_blank">Fatboy13-Adrian GitHub</a><br>     <!--Open My GitHub URL link in a new blank html page-->
+                Location: <img id="sgflag" src="https://flagcdn.com/16x12/sg.png" srcset="https://flagcdn.com/32x24/sg.png 2x, https://flagcdn.com/48x36/sg.png 3x" width="16" height="12" alt="Singapore"><br> <!--Display SG flag-->
+                Hobbies: <br>
+                <ul style="list-style-type:circle">                                                                         <!--Specify tpye of list - item marker in the hobby list-->
+                <li>Play PC Games</li>                                                                                      <!--Defines a list item inside an unordered list-->
+                <li>Travelling Overseas</li>
+                <li>Basketball</li>
+                </ul>
+        </div>                                                                                                              <!--End of about me div-->
+
+        <div>
+            <h3>Short Paragrah About Myself</h3>                                                                            <!--Display a short paragraph of myself-->
+            <p1>                                                                                                            <!--Paragragh 1-->
+            Versatile IT professional with 9 years of experience in system support, cybersecurity, and team leadership.<br> <!--Set line break after each sentence-->
+            Achieved 50% browser optimization, 40% fewer security incidents, and 99% system uptime.<br>
+            Currently transitioning to a Software Engineer role to apply technical expertise to designing scalable, secure, and innovative software solutions.<br>
+            </p1>
+        </div>                                                                                                              <!--End of short paragragh div--> 
+    </div>                                                                                                                  <!--End of flex container div class-->
+</body>                                                                                                                     <!--End of body-->
+</html>                                                                                                                     <!--End of HTML-->
